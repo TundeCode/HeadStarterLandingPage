@@ -3907,3 +3907,15 @@ input, select, textarea {
 			}
 
 		}
+		.video-container {
+			display: flex;
+			justify-content: center;
+			margin: 10px 20; /* Adds some space above and below the video */
+		}
+		
+		video {
+			max-width: 25%;
+			height: auto;
+		}
+		
+		
